@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  display: grid;
+  background: #567907;
+  grid-template-columns: repeat(4, 1fr);
+
+  padding: 1vw;
+  grid-gap: 1vw;
+  height: 45vw;
+  width: 100vw;
+}
+
+.nada {
+  background: #980875;
+  height: 20vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 4vw;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  height: 110vw;
+  background: #136075;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1vw;
+  grid-gap: 1vw;
+}
+
+.card {
+  height: 50vw;
+  width: 2fr;
+  background: #46801f;
+  border-radius: 4px;
+}
+
+strong {
+  font-size: 3vw;
+}
